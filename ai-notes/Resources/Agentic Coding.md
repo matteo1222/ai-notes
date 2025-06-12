@@ -5,4 +5,6 @@ https://lucumr.pocoo.org/2025/6/12/agentic-coding/
 	- but do it in docker for some protection
 - dont use mcp unless other tools are too hard to use like playwright mcp
 - use Golang, it is easy for agent to use
-- tools sh
+- tools should be designed to be very user friendly
+	- inform good error
+	- debuggability an
