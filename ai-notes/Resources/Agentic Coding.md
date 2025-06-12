@@ -34,6 +34,15 @@ https://www.youtube.com/watch?v=6eBSHbLKuN0
   - /allowed-tools
   - /terminal-setup
   - Turn on MacOS Dictation
+- understand codebase
+  - Q & A, onboarding
+  - use @ tag file
+- editing code
+  - tell claude to brainstorm or plan first
+  - 3 parallel agent to brainstorm ideas before you write code
+- tell claude about your team's tools/mcp
+- common workflow
+  - explore -> plan -> confirm -> implement -> test -> deploy
 
 ---
 
@@ -45,3 +54,14 @@ https://www.youtube.com/watch?v=J3oJqan2Gv8&t=1579s
 https://www.youtube.com/watch?v=fQL1A4WkuJk
 
 - make todo.md for project planning
+
+---
+
+TDD - ai write test (review carefully), ai implement, refactor until all test pass
+
+---
+
+autonomus vs hand holding
+hybrid approach
+
+- discuss about the plan, question agent if it understand it, try one instance, give feedback, try 2 more, fan out to multiple subagent to do it all
