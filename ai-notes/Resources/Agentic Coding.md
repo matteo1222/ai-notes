@@ -80,3 +80,20 @@ autonomus vs hand holding
 hybrid approach
 
 - discuss about the plan, question agent if it understand it, try one instance, give feedback, try 2 more, fan out to multiple subagent to do it all
+
+---
+
+https://simonwillison.net/2022/Oct/29/the-perfect-commit/
+perfect commit
+
+> The implementation: a single, focused change
+> Tests that demonstrate the implementation works
+> Updated documentation reflecting the change
+> A link to an issue thread providing further context
+
+---
+
+## claude squad, manage claude code in a central place
+
+- parallism, do different work in parallel
+- do single work in parallel and pick the best approach
