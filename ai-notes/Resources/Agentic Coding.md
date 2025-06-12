@@ -42,7 +42,22 @@ https://www.youtube.com/watch?v=6eBSHbLKuN0
   - 3 parallel agent to brainstorm ideas before you write code
 - tell claude about your team's tools/mcp
 - common workflow
-  - explore -> plan -> confirm -> implement -> test -> deploy
+  - explore -> plan -> confirm -> code -> commit
+  - write test -> commit -> code -> iterate -> commit
+  - write code -> screenshot (playwright mcp/ puppeteer mcp)-> iterate
+- give context
+
+  - CLAUDE.md
+    - project level
+    - user level
+      ~/.claude/CLAUDE.md
+    - bash commands, architecture decision, important file, keep it short
+  - different level
+    - enterprise -> global (just me) -> project (checked in) -> project (just me)
+
+- run it in parallel
+  - tmux/worktree
+  - github actions
 
 ---
 
