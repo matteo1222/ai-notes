@@ -103,3 +103,11 @@ perfect commit
 two engineer ship like a team of 15
 https://www.youtube.com/watch?v=Lh_X32t9_po
 
+- use claude code to not just do coding, do all the other things related to deveopement
+- do research on a feature request
+	- grounding, research current code base find out what we have
+	- research best practice
+	- make a plan, check in with user for approval
+	- create github issue
+- compounding engineer
+	- make a prompt that can make prompts
