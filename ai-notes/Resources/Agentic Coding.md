@@ -22,6 +22,7 @@ https://lucumr.pocoo.org/2025/6/12/agentic-coding/
 
 - make things parallelizable
 - learn to refactor
+- keep experiementing, the "good" approach for agentic coding is changing rapidly
 
 ---
 
@@ -66,8 +67,6 @@ https://www.youtube.com/watch?v=J3oJqan2Gv8&t=1579s
 
 ---
 
-https://www.youtube.com/watch?v=fQL1A4WkuJk
-
 - make todo.md for project planning
 
 ---
@@ -111,3 +110,20 @@ https://www.youtube.com/watch?v=Lh_X32t9_po
 	- create github issue
 - compounding engineer
 	- make a prompt that can make prompts
+- fix in the earliest part of things
+	- meaning in the development cycle
+		- plan -> write code -> commit -> push -> production
+		- in plan phrase just fix things already steer the direction
+- plans, make plan more fun to read
+	- ask question
+		- "What would good PM ask about this"
+	- focus on user stories
+	- look for red flags
+- interview mode -> ask user about more context what they want, then generate output
+- tests, evals is important
+	- smoke test
+	- make it iterate and fix things itself
+	- figma -> puppeteer -> screenshot -> code update
+	- eval is test for prompt
+		- use a prompt, succeed 4 out of 10 times
+		- iterate prompt
