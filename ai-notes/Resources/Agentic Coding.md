@@ -97,3 +97,9 @@ perfect commit
 
 - parallism, do different work in parallel
 - do single work in parallel and pick the best approach
+
+
+--- 
+two engineer ship like a team of 15
+https://www.youtube.com/watch?v=Lh_X32t9_po
+
