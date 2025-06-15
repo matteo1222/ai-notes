@@ -76,12 +76,26 @@ Is the task well-defined and small?
 - **User-friendly design**: Tools should not hang, provide good error messages, and offer debuggability *(Ronacher 2025)*
 - **Observability**: Log to files (not just terminal) so agents can investigate issues *(Ronacher 2025)*
 - **Protection**: Use containerization (like Docker) for risk management when using autonomous modes *(Raw Notes)*
+- **Avoid service conflicts**: Use tools that prevent duplicate service spawning (e.g., pidfiles) *(Raw Notes)*
+- **Hot-reload patterns**: For slow applications, create daemon processes that can dynamically load code *(Raw Notes)*
+
+### Autonomous Mode Settings
+- **YOLO mode**: Use `--dangerously-skip-permissions` for fully autonomous workflows *(Raw Notes)*
+- **Safe autonomy**: Always run autonomous mode inside Docker containers for protection *(Raw Notes)*
+- **MCP usage**: Avoid MCP unless essential (e.g., Playwright MCP for browser automation) *(Raw Notes)*
 
 ### Development Environment
 - **Terminal-based tools**: Enable scriptability and parallel execution *(Master Claude Code)*
 - **SSH/tmux support**: Allows running multiple sessions simultaneously *(Master Claude Code)*
 - **Dictation setup**: Voice input can speed up communication with AI assistants *(Master Claude Code)*
 - **Workspace organization**: Use allowed-tools configurations and terminal setups *(Master Claude Code)*
+- **Multi-modal support**: Drag and drop images, use file paths, or copy-paste images directly *(Master Claude Code)*
+- **No indexing required**: Code stays local, no remote databases, no training on your code *(Master Claude Code)*
+
+### Onboarding & Team Setup
+- **Start with Q&A, not coding**: For team onboarding, begin with codebase questions before editing *(Master Claude Code)*
+- **Accelerated onboarding**: Can reduce technical onboarding from weeks to days *(Master Claude Code)*
+- **Permission boundaries**: Learn what can be "one-shotted" vs. needs hand-holding *(Master Claude Code)*
 
 ---
 
@@ -96,8 +110,11 @@ Is the task well-defined and small?
 
 ### Alternative Workflows
 - **Test-Driven Development**: Write tests → commit → code → iterate → commit *(Master Claude Code)*
+- **AI-Assisted TDD**: AI writes tests (review carefully) → AI implements → refactor until tests pass *(Raw Notes)*
 - **Visual Development**: Write code → screenshot (using Playwright/Puppeteer) → iterate *(Master Claude Code)*
+- **Mock-driven development**: Drag/drop UI mocks → AI implements → iterate with screenshots *(Master Claude Code)*
 - **Parallel Brainstorming**: Use 3 parallel agents to brainstorm ideas before implementation *(Master Claude Code)*
+- **CLI/SDK integration**: Use Claude Code as Unix utility - pipe input/output, JSON formatting *(Master Claude Code)*
 
 ### Planning Strategies
 - **Break down complex tasks**: Use todo.md files for project planning *(Raw Notes)*
@@ -105,6 +122,12 @@ Is the task well-defined and small?
 - **Focus on user stories**: Center planning around user needs *(Two Engineers 2025)*
 - **Look for red flags**: Identify potential issues early in the planning phase *(Two Engineers 2025)*
 - **Interview mode**: Ask users for more context before generating solutions *(Two Engineers 2025)*
+- **Make plans engaging**: Ask questions and focus on user stories to make plans more readable *(Two Engineers 2025)*
+
+### Beyond Just Coding *(Two Engineers 2025)*
+- **Feature research workflow**: Grounding → research current codebase → research best practices → plan → get approval → create GitHub issue
+- **Development lifecycle integration**: Use AI for all development-related tasks, not just coding
+- **Early intervention**: Fix issues in the planning phase rather than after deployment
 
 ---
 
@@ -145,17 +168,25 @@ Include:
 - **Provide clear context**: Use @ tags to reference specific files *(Master Claude Code)*
 - **Be specific about requirements**: Clear requirements lead to better results *(Master Claude Code)*
 - **Ask for explanations**: Have AI explain its approach for complex tasks *(Master Claude Code)*
+- **Use specific prompts**: "Before you write code, make a plan" or "Make a plan, run it by me, ask for approval" *(Master Claude Code)*
+- **Git integration**: Ask about Git history, commit formats, who introduced changes *(Master Claude Code)*
+- **Weekly standups**: "What did I ship this week?" for automated status reports *(Master Claude Code)*
+
+### Interactive Session Management *(Master Claude Code)*
+- **Escape to interrupt**: Hit escape to give mid-task feedback or corrections
+- **Session resumption**: Use `--resume` or `--continue` to resume previous sessions
+- **History navigation**: Escape twice to jump back in session history
 
 ---
 
 ## Testing & Deployment
 
 ### Testing Strategies
-- **Write comprehensive tests**: Include implementation tests and documentation *(Willison 2022)*
+- **Comprehensive testing**: Include implementation tests and documentation *(Willison 2022)*
 - **Smoke tests**: Quick validation that core functionality works *(Two Engineers 2025)*
-- **Evaluation frameworks**: Create tests for prompts and AI workflows *(Two Engineers 2025)*
-- **Iterative testing**: Make AI systems fix their own issues through testing feedback *(Two Engineers 2025)*
 - **Visual testing**: Use Figma → Puppeteer → screenshot → code update workflows *(Two Engineers 2025)*
+- **Prompt evaluation**: Treat prompts like code - test them, measure success rates, iterate *(Two Engineers 2025)*
+- **Iterative self-correction**: Make AI systems fix their own issues through testing feedback *(Two Engineers 2025)*
 
 ### Perfect Commit Pattern *(Willison 2022)*
 Each commit should include:
@@ -178,7 +209,7 @@ Each commit should include:
 - **Multiple Claude instances**: Run different work streams in parallel *(Master Claude Code)*
 - **Git worktrees**: Work on multiple branches simultaneously *(Master Claude Code)*
 - **GitHub Actions**: Automate parallel workflows *(Master Claude Code)*
-- **Squad management**: Coordinate multiple AI assistants from a central location *(Raw Notes)*
+- **Claude Squad management**: Coordinate multiple AI assistants from a central location *(Raw Notes)*
 
 ### Task Distribution
 - **Do different work in parallel**: Assign different features to different instances *(Raw Notes)*
@@ -212,6 +243,8 @@ Each commit should include:
 - **Daemon patterns**: Create long-running processes for frequently used tools *(Ronacher 2025)*
 - **File system watching**: Implement hot-reload patterns for rapid iteration *(Ronacher 2025)*
 - **Logging strategies**: Structured logging for better debugging and monitoring *(Ronacher 2025)*
+- **Tiered permission system**: Complex allow/block lists for safe bash command execution *(Master Claude Code)*
+- **Static analysis**: Automatic detection of safe command combinations *(Master Claude Code)*
 
 ---
 
@@ -221,6 +254,11 @@ Each commit should include:
 - **Prompt-generating prompts**: Create AI that can create better prompts *(Two Engineers 2025)*
 - **Self-improving workflows**: Build systems that enhance their own processes *(Two Engineers 2025)*
 - **Knowledge accumulation**: Build on previous work to compound effectiveness *(Two Engineers 2025)*
+
+### Meta-Development Patterns
+- **Full lifecycle integration**: Use AI beyond coding - for research, planning, issue creation *(Two Engineers 2025)*
+- **Self-healing systems**: Create systems where AI can investigate and fix its own errors *(Raw Notes)*
+- **Dynamic code loading**: For slow applications, create hot-reload systems for rapid iteration *(Raw Notes)*
 
 ### Quality Assurance
 - **Fix early in the cycle**: Address issues in planning rather than after deployment *(Two Engineers 2025)*
