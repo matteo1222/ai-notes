@@ -11,14 +11,10 @@
             "id": "65e8251cf73c9284",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Resources/Agentic Coding.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Agentic Coding"
+              "title": "New tab"
             }
           }
         ]
@@ -172,6 +168,7 @@
   "active": "65e8251cf73c9284",
   "lastOpenFiles": [
     "Resources/Agentic Coding.md",
+    "Resources/Agentic Coding Raw Notes.md",
     "Welcome.md",
     "Resources"
   ]
