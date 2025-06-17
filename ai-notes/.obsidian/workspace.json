@@ -11,10 +11,14 @@
             "id": "65e8251cf73c9284",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Resources/Effective Agentic Coding Patterns.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Effective Agentic Coding Patterns"
             }
           }
         ]
@@ -167,11 +171,12 @@
   },
   "active": "65e8251cf73c9284",
   "lastOpenFiles": [
+    "Resources/Untitled.md",
+    "Resources/Effective Agentic Coding Patterns.md",
+    "Resources/Agentic Coding Raw Notes.md",
     "Resources/AI 輔助寫程式模式指南.md",
     "Resources/AI 輔助編程模式指南.md",
-    "Resources/Effective Agentic Coding Patterns.md",
     "Resources/Agentic Coding.md",
-    "Resources/Agentic Coding Raw Notes.md",
     "Welcome.md",
     "Resources"
   ]
