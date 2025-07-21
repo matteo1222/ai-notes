@@ -306,3 +306,6 @@ For beginners starting with agentic coding:
 Remember: The "good" approach for agentic coding is changing rapidly. Stay adaptable and keep experimenting with new tools and techniques as they emerge. *(Ronacher 2025)*
 
 
+聯審會的機制，裡面有內政部、陸委會、國安局等官員，都包含了國安建議
+原文網址:  | 政治 | Newtalk新聞 https://newtalk.tw/news/view/2025-06-10/975537
+Follow us: @Newtalk新聞 on FB | @newtalk_news on IG |  @NewtalkNews on YT
