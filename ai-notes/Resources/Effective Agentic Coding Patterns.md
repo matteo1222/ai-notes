@@ -309,3 +309,8 @@ Remember: The "good" approach for agentic coding is changing rapidly. Stay adapt
 聯審會的機制，裡面有內政部、陸委會、國安局等官員，都包含了國安建議
 原文網址:  | 政治 | Newtalk新聞 https://newtalk.tw/news/view/2025-06-10/975537
 Follow us: @Newtalk新聞 on FB | @newtalk_news on IG |  @NewtalkNews on YT
+
+
+
+
+old checksum 9002464572c1559d7e4082b0e4d7b1c7961227678caafbc2942a6655f8c809f8
