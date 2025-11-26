@@ -25,12 +25,14 @@
             "id": "69f1accfecc42f85",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.9.14"
+                "file": "Coding agent experiemnts.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.14"
+              "icon": "lucide-file",
+              "title": "Coding agent experiemnts"
             }
           },
           {
@@ -198,9 +200,11 @@
   "active": "69f1accfecc42f85",
   "lastOpenFiles": [
     "Resources/Effective Agentic Coding Patterns.md",
+    "Coding agent experiemnts.md",
+    "Untitled",
+    "Resources/Agentic Coding Raw Notes.md",
     "Pasted image 20250721204949.png",
     "Resources/Untitled.md",
-    "Resources/Agentic Coding Raw Notes.md",
     "Resources/AI 輔助寫程式模式指南.md",
     "Resources/AI 輔助編程模式指南.md",
     "Resources/Agentic Coding.md",

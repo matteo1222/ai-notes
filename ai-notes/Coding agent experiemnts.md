@@ -1,0 +1,37 @@
+
+- osgrep semantic code search [https://github.com/Ryandonofrio3/osgrep](https://github.com/Ryandonofrio3/osgrep)
+- badlogic agents.md [https://github.com/badlogic/pi-mono/blob/main/AGENTS.md](https://github.com/badlogic/pi-mono/blob/main/AGENTS.md)
+    - pointer style AGENTS.md
+    - don't use any
+    - always run check
+    - never run `npm run dev`
+    - read tools README.md if needed for browser tools
+    - use tmux if need to interact with TUI app
+- steipete agent scripts [https://github.com/steipete/agent-scripts](https://github.com/steipete/agent-scripts)
+    - tools that agents use
+    - pointer style AGENTS.md
+    - browser tools
+- every to workflow
+    - [https://github.com/EveryInc/every-marketplace/blob/main/plugins/compounding-engineering/skills/codify-docs/SKILL.md](https://github.com/EveryInc/every-marketplace/blob/main/plugins/compounding-engineering/skills/codify-docs/SKILL.md)
+    - [https://github.com/EveryInc/every-marketplace/tree/main/plugins/compounding-engineering/commands/workflows](https://github.com/EveryInc/every-marketplace/tree/main/plugins/compounding-engineering/commands/workflows)
+    - parallel research
+    - parallel review
+    - parallel codify feedback, and learning to a fix schema doc, for future usage
+- oracle
+    - [https://github.com/steipete/oracle](https://github.com/steipete/oracle)
+- factory aie talk [https://www.youtube.com/watch?v=xmbSQz-PNMM](https://www.youtube.com/watch?v=xmbSQz-PNMM)
+    - opinionated verfication flow
+        - linter
+        - test
+        - ast grep
+- beads, and beads best practice [https://steve-yegge.medium.com/beads-best-practices-2db636b9760c](https://steve-yegge.medium.com/beads-best-practices-2db636b9760c)
+    - graph based git checked in task manager, with depednecy
+    - Run `bd doctor` Regularly
+    - Keep Your Database Small
+    - Upgrade Regularly and Do Daily Hygiene
+    - Plan Outside Beads, Then Import
+    - Restart Agents Frequently
+    - Ask the AI to File Lots of Issues
+    - Use a Short Issue Prefix
+    - File Beads Bug Reports and Feature Requests
+    - + mcp agent mail: [https://github.com/Dicklesworthstone/mcp_agent_mail](https://github.com/Dicklesworthstone/mcp_agent_mail)
