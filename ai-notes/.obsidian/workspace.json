@@ -22,6 +22,18 @@
             }
           },
           {
+            "id": "69f1accfecc42f85",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.14"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.14"
+            }
+          },
+          {
             "id": "209766255f7dcfb3",
             "type": "leaf",
             "state": {
@@ -33,7 +45,8 @@
               "title": "Release Notes 1.9.10"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -182,7 +195,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "65e8251cf73c9284",
+  "active": "69f1accfecc42f85",
   "lastOpenFiles": [
     "Resources/Effective Agentic Coding Patterns.md",
     "Pasted image 20250721204949.png",
