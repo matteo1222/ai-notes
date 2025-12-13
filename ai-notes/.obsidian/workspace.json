@@ -36,6 +36,18 @@
             }
           },
           {
+            "id": "0b4b41ba7f9fb958",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.6"
+            }
+          },
+          {
             "id": "209766255f7dcfb3",
             "type": "leaf",
             "state": {
@@ -48,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -197,7 +209,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "69f1accfecc42f85",
+  "active": "0b4b41ba7f9fb958",
   "lastOpenFiles": [
     "Resources/Effective Agentic Coding Patterns.md",
     "Coding agent experiemnts.md",
