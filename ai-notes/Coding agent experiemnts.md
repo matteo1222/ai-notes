@@ -35,3 +35,9 @@
     - Use a Short Issue Prefix
     - File Beads Bug Reports and Feature Requests
     - + mcp agent mail: [https://github.com/Dicklesworthstone/mcp_agent_mail](https://github.com/Dicklesworthstone/mcp_agent_mail)
+- agent flywheels:
+	- https://agent-flywheel.com/
+- swarm tools ai
+	- https://www.swarmtools.ai/
+- property based testing, DST, state machines
+	- ![[Pasted image 20251228152425.png]]
