@@ -88,6 +88,18 @@
             }
           },
           {
+            "id": "8d6c5d0345fabd21",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "發行記錄 1.12.7"
+            }
+          },
+          {
             "id": "209766255f7dcfb3",
             "type": "leaf",
             "state": {
@@ -100,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -250,7 +262,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dfce10dd0d278ef5",
+  "active": "8d6c5d0345fabd21",
   "lastOpenFiles": [
     "Design.md",
     "Pasted image 20251228152425.png",
